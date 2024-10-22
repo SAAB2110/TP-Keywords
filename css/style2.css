@@ -2,3 +2,15 @@
     padding: 0;
     margin: 0;
 }
+
+.contenedor{
+    height: 310px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor:focus{
+}
