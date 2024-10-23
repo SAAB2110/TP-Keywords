@@ -3,16 +3,23 @@
     margin: 0;
 }
 
+#padding-margin0{
+    padding: 0;
+    margin: 0;
+}
+
 .archivo-black-regular {
     font-family: "Archivo Black", Omnibus-Type;
     font-weight: 400;
     font-style: normal;
   }
-  
+
 header{
+    padding: 0;
+    margin: 0;
     width: 100%;
     height: 150px;
-    
+    background: url(../assets/imagenes/patron\ cn\ xde.png);
 }
 
 .header2{
@@ -23,6 +30,7 @@ header{
 }
 
 h1{
+    color: #ED008C;
     padding-left: 50px;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,14 +40,20 @@ h1{
     width: 100%;
     height: 100px;
     background: url(../assets/imagenes/fondomenu.png);
+    
+}
+
+.fondo{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
 }
 
 .series{
     display: flex;
-    color: #FFF000;
     text-align: center;
     justify-content: center;
-    padding-top: 10px;
+    align-items: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -49,9 +63,101 @@ a{
 }
 
 h2{
-    color: #FFF000;
+    color: black;
 }
 
 h2:hover{
     transform: scale(1.2);
+}
+
+.contenedor-tituloJ{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ED008C;
+}
+
+.tituloJ{
+    font-size: 40px;
+    padding-top: 20px;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient( #ED008C, #FFF000, #00AEEF);
+    height: 500px;
+}
+
+.juego{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.juegoCopa h3{
+    font-size: 20px;
+
+}
+
+.imagenJuego{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-video{
+    width: 100%;
+    height: 400px;
+    background: url(../assets/imagenes/patron\ cn\ xde.png);
+    overflow: hidden;
+}
+
+.fondo1{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: row;
+}
+
+.parrafo-footer{
+    padding-left: 20px;
+    padding-top: 50px;
+    width: 500px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Copyright{
+    color: white;
+}
+
+.redessociales{
+    padding-top: 50px;
+    padding-left: 500px;
+    width: 300px;
+    height: 60px;
 }
