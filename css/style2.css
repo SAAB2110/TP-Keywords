@@ -50,7 +50,23 @@
 }
 
 
-.texto{
+.texto1{
+    height: 500px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto2{
+    height: 500px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto3{
     height: 500px;
     display: inline;
     justify-content: center;
@@ -173,9 +189,15 @@ article:hover .imagen2:last-child {
     visibility: visible;
 }
 
-@media screen and (max-width: 1023px){
-    .texto{
-        height: 1000px;
+@media screen and (max-width: 768px){
+    .texto1{
+        height: 700px;
+    }
+    .texto2{
+        height: 750px;
+    }
+    .texto3{
+        height: 925px;
     }
 }
 
