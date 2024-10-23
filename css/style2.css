@@ -199,15 +199,12 @@ article:hover .imagen2:last-child {
     .texto3{
         height: 925px;
     }
-}
-
-footer{
-    width: 100%;
-    height: 400px;
-    background-color: #262626;
-    display: flex;
-    flex-direction: row;
-    
+    footer{
+        height: 400px;
+    }
+    .redes{
+        padding-left: 0px;
+    }
 }
 
 #footer{
@@ -215,24 +212,35 @@ footer{
     padding: 0;
 }
 
-.parrafo-footer{
-    padding-left: 20px;
-    padding-top: 50px;
-    width: 500px;
-    height: 100px;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
 .Copyright{
     color: white;
 }
 
-.redessociales{
-    padding-top: 50px;
-    padding-left: 500px;
-    width: 300px;
-    height: 60px;
+footer{
+    height: 500px;
+    background-color: #262626;
+    display: block;
+}
+
+.parrafo1{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    flex-direction: column;
+}
+
+.parrafo1 p{
+    color: white;
+    text-align: center;
+}
+
+.parrafo1 h2{
+    text-align: center;
+}
+
+.redes{
+    height: 50px;
+    display: flex;
+    justify-content: center;
 }
