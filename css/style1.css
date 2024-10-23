@@ -49,9 +49,41 @@ a{
 }
 
 h2{
-    color: #FFF000;
+    color: black;
 }
 
 h2:hover{
     transform: scale(1.2);
 }
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient( #ED008C, #FFF000, #00AEEF);
+    height: 500px;
+}
+
+.juego{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.juegoCopa h3{
+    font-size: 20px;
+
+}
+
+.imagenJuego{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
